@@ -1,0 +1,52 @@
+/* fuentes importada */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* * {
+  border: 1px solid black;
+} */
+
+/* nav */
+
+.nav-link {
+  color: #F3CF01;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/* textos */
+
+.titulos {
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+.subtitulo {
+  font-size: 30px;
+}
+
+.remarcado {
+  font-size: 24px;
+}
+
+/* para cars desde bootstrap page */
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+}
+
+/* icon color */
+
+.fa {
+  color: #343A40;
+}

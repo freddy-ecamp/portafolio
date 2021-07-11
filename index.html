@@ -1,0 +1,308 @@
+<!-- ejemplo de maqueta -->
+<!-- https://xd.adobe.com/spec/33032bef-4e92-4824-6331-b90df2d2a64c-4532/grid -->
+
+
+<!-- requisitos -->
+<!-- El sitio web debe ser responsivo.
+●Debe incluir una grilla.
+●El sitio web debe estar construido usando la filosofía Mobile First.
+●Sedebeintegraralomenosunservicioexternodeformulariosdecontacto(Typeform).
+●Sedebeusaralomenos2componentesdebootstrapqueincluyanJavaScript.(Carousel,tooltips, entre otros).
+●Lapáginadebetenerunabarradenavegaciónconlinksquellevenalasdiferentessecciones de la páginaweb.
+●Sedebenusar1o2tiposdiferentesdefuentes(Enelcasodeser1tipodefuente,contrastar esta con a lo menos un peso defuente).
+●Sedebenusaralomenos3tiposdiferentesdecomponentesdebootstrap(excluyendo las componentes con JavaScript)
+●La página debetener titulares y subtitulares para las secciones.
+●Se debe a lo menos 4 clases utilitarias de Bootstrap -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- iconos font awesome [https://fontawesome.com/v4.7/get-started/]-->
+  <script src="https://use.fontawesome.com/8385698938.js"></script>
+  <!-- my css -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>portafolios</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" data-spy="affix">
+
+  <!-- * -->
+  <header>
+    <!-- aclaracion del estado de este proyecto -->
+    <div class=" alert alert-warning alert-dismissible fade show my-0 text-right" role="alert">
+      Este sitio web seguira en construccion para agrupar otros proyectos de las clases
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span style=" color:#343A40;" aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </header>
+  <!-- * prentacion-->
+  <main>
+
+
+    <!-- nav -->
+
+    <!-- <nav class="navbar navbar-expand-lg bg-dark sticky-top" id="navbar-example"> -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand">
+          <img style="color: red;" src="./assets/img/Group.svg" width="60" height="60" class="d-inline-block align-top img-fluid"
+            alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item "> <a class="nav-link " href="#prentacion">Presentacion </a> </li>
+            <li class="nav-item "> <a class="nav-link" href="#resumen">Resumen</a> </li>
+            <li class="nav-item "> <a class="nav-link" href="#experiencia">Mi Experiencia </a> </li>
+            <li class="nav-item "> <a class="nav-link" href="#trabajos">Ultimos trabajos </a> </li>
+            <li class="nav-item "> <a class="nav-link" href="#contacto">Contacto </a> </li>
+            <li class="nav-item "> <a class="nav-link" href="#redes"> redes</a> </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Proyectos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- contenido -->
+    <!-- * presentacion -->
+    <div class="container-fluid" id="prentacion">
+      <div class="row d-flex align-items-center" style="height:100vh;background-color:#F3CF01;" style="height: 100%;">
+        <div class="col-12 col-md-6 text-md-right text-center ">
+          <p style="color: #343A40; " class="subtitulo">Freddy Huaylla <span class="titulos">
+              Desarrollador</span></p>
+        </div>
+        <div class="col-12 col-md-6 text-md-left text-center">
+          <p style="color: #343A40;  " class="subtitulo">FullStack <span class="titulos">
+              JAVASCRIPT</span>
+        </div>
+      </div>
+    </div>
+    <h4 id="item-1">Item 1</h4>
+    <div class="container" id="resumen">
+      <div class="row">
+        <div class="col-12 mt-5 mb-3">
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices
+            justo eu, hendrerit lectus.
+          </p>
+        </div>
+        <div class="col-6 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+          consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+          Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
+          mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
+          blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies
+          sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</div>
+        <div class="col-6 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+          consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+          Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
+          mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
+          blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies
+          sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</div>
+
+      </div>
+    </div>
+    <!-- * experiencia-->
+    <div class="container mb-5" id="experiencia">
+      <div class="row">
+        <div class="col-12 text-center titulos">MI EXPERIENCIA</div>
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
+
+          <img style="color: red;" src="./assets/img/figma.png" height="150" class="d-inline-block align-top img-thumbnail">
+          <h2 class="remarcado">Figma</h2>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
+          <img style="color: red;" src="./assets/img/css.png" height="150" class="d-inline-block align-top img-thumbnail">
+          <h2 class="remarcado">CSS</h2>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
+          <img style="color: red;" src="./assets/img/js.png" class="d-inline-block align-top img-thumbnail">
+          <h2 class="remarcado">Javascript</h2>
+        </div>
+      </div>
+    </div>
+    <!-- * mis trabajos-->
+    <div class="container-fluid mb-5 pt-5 " id="trabajos" style="background-color:#F3CF01; ">
+      <div class="row ">
+
+        <div class="col-12 text-center titulos pb-5" style="color:#fff;">MIS ÚLTIMOS TRABAJOS</div>
+
+        <div class="col-12 pb-5">
+          <div class="card-columns">
+
+            <!-- cards -->
+            <div class="card mx-1">
+              <img class="card-img-top" src="assets/img/proyectos/meet_coffee.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-left subtitulo">Card title</h5>
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                  additional content.
+                  This content is a little bit longer.</p>
+                <p class="card-text text-right remarcado"><small class="text-muted">link</small></p>
+              </div>
+            </div>
+            <div class="card mx-1">
+              <img class="card-img-top" src="assets/img/proyectos/iguana_page.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-left subtitulo">Card title</h5>
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                  additional content.
+                  This content is a little bit longer.</p>
+                <p class="card-text text-right remarcado"><small class="text-muted">link</small></p>
+              </div>
+            </div>
+            <div class="card mx-1">
+              <img class="card-img-top" src="assets/img/proyectos/suricata.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-left subtitulo">Card title</h5>
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                  additional content.
+                  This content is a little bit longer.</p>
+                <p class="card-text text-right remarcado"><small class="text-muted">link</small></p>
+              </div>
+            </div>
+            <div class="card mx-1">
+              <img class="card-img-top" src="assets/img/proyectos/cuppon.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-left subtitulo">Card title</h5>
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                  additional content.
+                  This content is a little bit longer.</p>
+                <p class="card-text text-right remarcado"><small class="text-muted">link</small></p>
+              </div>
+            </div>
+            <div class="card mx-1">
+              <img class="card-img-top" src="assets/img/proyectos/ricomida.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-left subtitulo">Card title</h5>
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                  additional content.
+                  This content is a little bit longer.</p>
+                <p class="card-text text-right remarcado"><small class="text-muted">link</small></p>
+              </div>
+            </div>
+            <div class="card mx-1">
+              <img class="card-img-top" src="assets/img/proyectos/dmark.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-left subtitulo">Card title</h5>
+                <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                  additional content.
+                  This content is a little bit longer.</p>
+                <p class="card-text text-right remarcado"><small class="text-muted">link</small></p>
+              </div>
+            </div>
+            <!-- cards -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- * contacto-->
+    <div class="container d-flex flex-column  justify-content-around text-center" id="contacto" style="height:860px;">
+
+      <div class="row">
+        <div class="col-12">
+
+          <h1 class="titulos my-5">Contacto</h1>
+          <p class="subtitulo my-3">Quieres conocer mas de mi?</p>
+
+          <a class="typeform-share button" href="https://form.typeform.com/to/SfzpItki?typeform-medium=embed-snippet"
+            data-mode="popup" style="color:white;"
+            style="display:inline-block;text-decoration:none;background-color:#343A40;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+            data-size="100" target="_blank">
+            <button href="https://form.typeform.com/to/SfzpItki?typeform-medium=embed-snippet" data-mode="popup" data-size="100"
+              target="_blank" type="button" class="btn btn-outline-dark remarcado my-5 typeform-share" data-toggle="tooltip"
+              title=":]" data-placement="left">Comenzar</button>
+
+          </a>
+
+          <script>
+            (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()
+          </script>
+
+
+        </div>
+      </div>
+
+    </div>
+    <!-- * redes-->
+    <div class="container-fluid d-flex flex-column justify-content-around text-center" id="redes"
+      style="background-color:#F3CF01; height:200px;">
+      <div class="row  justify-content-center">
+        <div class="col-4 my-auto ">
+          <h2 class="text-justify titulos  text-center"> Freddy Huaylla</h2>
+        </div>
+        <div class="col-1 awesIcons ">
+
+          <a href="https://github.com/freddy-ecamp" style="color:343A40;">
+            <i class="fa fa-github-alt" style="font-size: 80px;" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="col-1 awesIcons">
+          <i class="fa fa-linkedin" style="font-size: 80px;" aria-hidden="true"></i>
+
+        </div>
+
+        <div class="col-1 awesIcons">
+          <i class="fa fa-twitter-square" style="font-size: 80px;" aria-hidden="true"></i>
+
+        </div>
+        <div class="col-1 awesIcons">
+
+
+          <a href="https://www.facebook.com/FmarcosDev/" style="color:343A40;">
+            <i class="fa fa-facebook-square" style="font-size: 80px;" aria-hidden="true"></i>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </main>
+  <footer></footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- my scripts -->
+  <script type="text/javascript" src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
